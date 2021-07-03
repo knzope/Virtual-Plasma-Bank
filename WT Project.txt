@@ -1,0 +1,110 @@
+1. User
+
+First Name
+last name 
+Mail
+Password
+Gender
+Age
+Address
+
+
+2. Plasma Bank
+
+Name
+Hospital Name (optional)
+Mail id
+Password
+Address
+documents for verification
+
+3. Plasma bank and User Address
+Id
+Address
+
+4. All users table
+
+First Name
+last name 
+Mail
+Gender
+Age
+
+5. All plasma Banks table
+
+Name
+Hospital Name (optional)
+Mail id
+documents for verification
+
+6. admin side user verification
+Aadhar card/PAN card
+
+7. Request Plasma banks individual table
+
+
+
+->doner requests
+    request id
+    User email
+    User mobile
+    patient name
+    patient gender
+    patient age
+    patient Aadhar card/PAN card
+    choose city
+    Blood group
+    token
+    Medical History
+        -Questions->yes no type
+    request status
+    allotment
+   
+    if(request staus==1)
+    {
+        ->donater appointments
+            request id
+            bank name
+            bank email
+            phone
+            Address
+            date and time for appointment
+    }
+
+->receiver request  
+    request id
+    user Mail
+    user mobile
+    receiver name
+    gender
+    age
+    Aadhar card/PAN card
+    choose city
+    Blood group
+    token
+    request status
+    allotment
+
+    if(request status==1)
+    {
+        ->receiver appointment
+            Request id
+            bank name
+            bank email
+            phone
+            address
+            date and time for appointment
+    }
+
+
+
+
+
+
+
+
+y4Ev1#CI_X7WAT7W
+
+id14757243_plasmabank
+
+id14757243_root123
